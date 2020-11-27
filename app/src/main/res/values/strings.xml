@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">csv_test</string>
+
+    <string-array name="questionNumberList">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string name="sub_title1"><u>機能の紹介</u></string>
+
+    <string name="sub_title2"><u>問題の追加方法</u></string>
+
+
+    <string name="manual_text1">このアプリは記憶テスト用のものです。\n記憶テストを行う機能と、問題一覧を表示する機能を実装しています。</string>
+    <string name="manual_text2">また、「記憶テスト」・「一覧表示」の両機能でタグによる絞り込み、お気に入り登録が可能です。</string>
+    <string name="manual_text3">「一覧表示」においては、問題ごとに表示されている☆マークをタップすることでお気に入りの登録・解除ができます。</string>
+    <string name="manual_text4">お気に入り登録した問題については、テスト開始前のタグ絞り込みにおいて「お気に入り」タグを選択していただくことで、登録した問題に出題を制限できます。</string>
+    <string name="manual_text5">問題を新たに追加する場合は、パソコンと接続して端末のストレージにアクセスする必要があります。</string>
+    <string name="manual_text6">このアプリのデータファイル中に、「Documents」および「Pictures」というフォルダがあります。</string>
+    <string name="manual_text7">「Documents」フォルダ中のファイル「exFile.csv」をExcel等のソフトで開き、書き加えることで新たに問題を追加することができます。</string>
+    <string name="manual_text8">なお、追加した問題の画像は「Pictures」フォルダに加えてください。対応している画像の拡張子はjpgとpng、画像ファイル名は大文字を除く半角英数字にしてください。</string>
+    <string name="manual_text9">問題と画像の追加後に、アプリのホーム画面から「CSVファイルを読み込む」ボタンを押してください。</string>
+    <string name="manual_text10">このボタンを押すことで、問題の変更が反映されます。</string>
+    <string name="manual_text11">（ただし、ファイルをハンドルできず開けない場合は、外部にコピーして改変してから元のフォルダへ戻してください。）</string>
+    <string name="manual_text12"></string>
+
+
+</resources>

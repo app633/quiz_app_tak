@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProblemList"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/MyToolBarTheme"
+        app:popupTheme="@style/MyToolBarTheme"
+        android:background="@color/colorLiteGreen"/>
+    <!-- なぜかbackgroundだけthemeが適用されないので、直接backgroundを指定する力技　原因不明 -->
+
+    <!-- RecyclerViewと違ってToolbarはappcompatに属するウィジェットなので、もともと入っていて特にサポートファイルを入れる必要はなかった -->
+    <!-- implementation 'androidx.appcompat:appcompat:1.1.0'がもともとbuild.gradleに書かれている -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+
+
+</LinearLayout>
